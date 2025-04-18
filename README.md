@@ -26,7 +26,7 @@ D = librosa.amplitude_to_db(np.abs(S), ref=np.max)
 librosa.display.specshow(D, sr=sr, hop_length=512,
                         x_axis='time', y_axis='log')
 ```
-![Spectrogram](https://github.com/gacuervol/DeepLearning-cetacean-sounds/blob/main/figures/spectrogram_comparison.png)  
+![Spectrogram](https://github.com/gacuervol/DeepLearning-Bioacoustics/blob/main/figures/spectogram.png)  
 *Scientific Value:*  
 - Identified species-specific acoustic fingerprints  
 - Guided MFCC parameter selection (n_mfcc=60 optimal)  
@@ -90,7 +90,7 @@ Striped Dolphin        0.90      0.90      0.90        10
 Walrus                0.75      0.86      0.80         7
 ```
 
-![Confusion Matrix](https://github.com/gacuervol/DeepLearning-cetacean-sounds/blob/main/figures/cm_cnn.png)  
+![Confusion Matrix](https://github.com/gacuervol/DeepLearning-Bioacoustics/blob/main/figures/confussion_matrix.png)  
 *Confusion matrix showing strong performance on frequently observed species*
 
 ## 🚀 **Key Innovations**
