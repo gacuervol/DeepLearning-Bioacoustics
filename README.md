@@ -109,16 +109,20 @@ Walrus                0.75      0.86      0.80         7
 
 ## 📂 **Repository Structure**
 ```bash
-├── Data/
-│   ├── raw_audio/          # Original .wav files (1,697 samples)
-│   ├── processed/          # Standardized MFCC features
-├── Models/
-│   ├── Cetaceos_conv32.h5  # Best-performing CNN
-│   ├── Cetaceos_32dense.h5 # Baseline dense model
-├── Notebooks/
-│   ├── Web_Scraping.ipynb  # Watkins DB automation
-│   ├── MFCC_Extraction.ipynb # Feature engineering
-│   ├── CNN_Training.ipynb  # Model development
+/Data
+├── df_cetace.csv
+└── df_metadata.csv
+/figures
+├── confussion_matrix.png
+└── spectogram.png
+/Notebooks
+├── 1. Web Scrapping.ipynb
+├── 2. Pre-procesamiento.ipynb
+├── Hola_Cetáceos.ipynb
+├── Librosa.ipynb
+└── Pipeline Audio Cetáceos.ipynb
+/scrpits
+└── data_prep.py
 ```
 
 ## 🌍 **Research Applications**
